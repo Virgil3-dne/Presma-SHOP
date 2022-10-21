@@ -1,0 +1,49 @@
+/* --Nav-- */
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.leftNav{
+    width: 45%;
+    display: flex;
+    justify-content: baseline;
+}
+
+.midNav{
+    display: flex;
+    justify-content: center;
+}
+
+.midNav .logo p{
+    border: 2px solid black;
+    padding-top: 2px;
+}
+
+.rightNav{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+
+nav a, p{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
