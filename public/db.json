@@ -3,8 +3,8 @@
       {
         "id": 1,
         "sku": 18644119330491312,
-        "title": "Sphynx Tie Dye Grey T-Shirt",
-        "description": "Sphynx Tie Dye Grey",
+        "title": "Grey T-Shirt",
+        "description": " Short Grey T-Shirt",
         "availableSizes": ["X", "L", "XL", "XXL"],
         "price": 10,
         "isFreeShipping": true
@@ -13,7 +13,7 @@
       {
         "id": 2,
         "sku": 11854078013954528,
-        "title": "Danger Knife Grey T-Shirt",
+        "title": "Danger Grey T-Shirt",
         "description": "Danger Knife Grey",
         "availableSizes": ["X", "M", "L"],
         "price": 14.9,

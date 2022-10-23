@@ -1,0 +1,46 @@
+/* --Products-- */
+
+.productContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.productInfo p{
+    padding: 0;
+}
+
+
+.addToCart{
+    width: 100px;
+    border: 2px solid rgb(130, 130, 130);
+    background: white;
+    margin: 0;
+}
+
+.addToCart:hover{
+    transition-duration: .5s;
+    border: 2px solid black;
+}
+
+.addToCart:focus{
+    animation: animShadow .3s forwards;
+}
+
+@keyframes animShadow{
+    100%{
+        box-shadow: 0px 0px 5px 2px rgb(174, 174, 174);
+    }
+}
