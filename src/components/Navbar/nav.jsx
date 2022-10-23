@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function Navbar(){
     return(
         <nav>
             <div className="leftNav">
-                <a href="index.html">All</a>
-                <a href="">Full zip</a>
-                <a href="">Pants</a>
-                <a href="">Bag</a>
+                <Link to="/">All</Link>
+                <Link to="/fullzip">Full zip</Link>
+                <Link to="/pants">Pants</Link>
+                <Link to="/bag">Bag</Link>
             </div>
             <div className="midNav">
                 <div className="logo"><p>PRESMA</p></div>
             </div>
             <div className="rightNav">
-                <a href="contact.html">Contact</a>
-                <a href="">Cart</a>
+                <Link to="/contact">Contact</Link>
+                <Link to="/cart">Cart</Link>
             </div>
         </nav>
     )
