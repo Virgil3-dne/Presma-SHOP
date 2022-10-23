@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 
 import Navbar from './components/Navbar/nav.jsx';
+import Footer from './components/Footer/footer'
 
 import Products from "./components/Products";
 import Filter from "./components/Filter";
@@ -26,6 +27,7 @@ class App extends React.Component {
               <Basket />
             </div>
           </div>
+          <Footer />
         </Provider>
     );
   }
